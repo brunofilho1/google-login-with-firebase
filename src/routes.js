@@ -30,7 +30,7 @@ function ScreenRoutes () {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/" element={<HomeScreen />} />
+                <Route path="/" element={<HomeScreen user={user} />} />
             </Routes>
         </BrowserRouter>
     )
